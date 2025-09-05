@@ -88,6 +88,7 @@ public:
         DARKCORERGBPRO,
         K60_TKL,
         BRAGI_DONGLE,
+        SLIPSTREAM_WIRELESS_DONGLE,
         K100,
         K65_MINI,
         K70_TKL,

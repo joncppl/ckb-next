@@ -137,6 +137,7 @@ const device_desc models[] = {
     { V_CORSAIR, P_ST100, },
     // Misc
     { V_CORSAIR, P_GENERIC_BRAGI_DONGLE, },
+    { V_CORSAIR, P_SLIPSTREAM_WIRELESS_DONGLE, }
 };
 
 const size_t N_MODELS = sizeof(models) / sizeof(device_desc);
@@ -281,6 +282,8 @@ const char* product_str(ushort product){
         return "st100";
     if(product == P_GENERIC_BRAGI_DONGLE)
         return "bragi_dongle";
+    if(product == P_SLIPSTREAM_WIRELESS_DONGLE)
+        return "slipstream_dongle";
     if(product == P_MM700)
         return "mm700";
     return "";

@@ -1713,6 +1713,8 @@ KeyMap::Model KeyMap::getModel(const QString& name){
         return K55PRO;
     if(lower == "bragi_dongle")
         return BRAGI_DONGLE;
+    if(lower == "slipstream_dongle")
+        return SLIPSTREAM_WIRELESS_DONGLE;
     if(lower == "k100")
         return K100;
     if(lower == "k65_mini")
@@ -1802,6 +1804,8 @@ QString KeyMap::getModel(KeyMap::Model model){
         return "glaivepro";
     case BRAGI_DONGLE:
         return "bragi_dongle";
+    case SLIPSTREAM_WIRELESS_DONGLE:
+        return "slipstream_dongle";
     case K100:
         return "k100";
     case K65_MINI:
